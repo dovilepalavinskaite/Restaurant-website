@@ -1,0 +1,433 @@
+/* MA */
+/* ALL STYLES */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', sans-serif;
+}
+.background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* HEADER STYLE */
+.header {
+  position:fixed;
+  top: 0;
+  overflow: hidden;
+  z-index: 1000;
+  width: 100%;
+}
+.navigation a {
+  color: white;
+  font-size: 16px;
+  display: flex;
+  letter-spacing: 3px;
+  display: block;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.navigation a:hover{
+  transition: 0.5s;
+  text-decoration: underline;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* TOP BACKGROUND */
+.background-wrap {
+  position:absolute;
+  z-index: -1000;
+  width: 100%;
+  /* height: 100vh; NEW HIDE */
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+#top-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  /* min-height: 100%;  NEW HIDE*/
+}
+
+.content {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.flex-container {
+  /* position:fixed; */
+  display:flex;
+  justify-content: space-between;
+}
+
+.background-style {
+  background-size: cover;
+}
+
+.img-fit {
+  width: 90%;
+}
+
+.col-3-row {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  display: table-cell;
+  vertical-align: top;
+}
+
+.col-2-row {
+  width: 49%;
+  float: left;
+  text-align: center;
+  display: table-cell;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.logo-column {
+  width: 15%;
+  margin-bottom: 30px;
+}
+
+.background h1 {
+  font-family: 'Lobster';
+  color: white;
+  font-size: 70px;
+}
+
+.float-left {
+  float:left;
+}
+
+.float-right {
+  float: right;
+}
+
+.rez-button {
+  min-width: 155px;
+  max-width: 200px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 25px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.rez-button:hover {
+text-decoration: underline;
+background-color: black;
+background-width: 20%;
+transition: 0.5s;
+}
+
+.line {
+  width: 100%;
+  display: table;
+  /* margin: 10px 0px; */
+}
+
+/* ABOUT SECTION */
+
+
+.chef h6 {
+  color: #d09803;
+  font-family: 'Lobster';
+  font-size: 30px;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.chef {
+   width: 70%;
+   margin: auto;
+   padding: 20px;
+}
+.chef-image {
+  padding: 30px;
+  margin-left: 20%;
+}
+/* INGDEDIENTS STYLE */
+
+.ingredients-text-block {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+.ingredients-text-block h6 {
+  color: #d09803;
+  font-size: 30px;
+  text-align: center;
+}
+.ingredients-text-block p {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  padding: 20px;
+}
+
+
+/* MENIU STYLE */
+
+.yellow-line-style {
+  border: 0.2px solid #d09803;
+  margin-bottom: 2px;
+  display: block;
+}
+
+.description {
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.description p{
+  font-size: 12px;
+}
+
+.meal-category h5 {
+  color: #d09803;
+  font-size: 30px;
+  font-family: 'Lobster';
+  padding: 15px;
+}
+
+.meal-name {
+  color: #d09803;
+  font-size: 18px;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  padding:5px;
+}
+
+.meal-name h6 {
+  text-align:left;
+}
+
+.menu-ornament {
+  padding: 1%;
+}
+
+/* REVIEWS STYLE */
+
+.slide-content{
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+.slider, .wrap, .slide-content {
+  width: 90%;
+  height: 50vh;
+  margin: 0 auto;
+}
+
+.wrap {
+  position: relative;
+  margin-top: 100px;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-content span {
+  font-size: 5rem;
+  color: white;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #fff transparent;
+  left: 0;
+}
+
+.arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #fff;
+  right: 0;
+}
+
+.slide-content p {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.review-heading h6 {
+  color:#d09803;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Lobster';
+  margin-top: 20px;
+}
+
+.slide-content h6 {
+  font-size: 20px;
+  color: white;
+  margin-top: 15px;
+}
+
+.slide-content img {
+  padding: 10px;
+}
+
+/* REGISTRACIJOS FORMA */
+
+.input-container input {
+    width: 100%;
+    padding: 15px;
+    display: block;
+    border-color: #d09803;
+    border-radius: 5px;
+    background: #f1f1f1;
+}
+
+.reservation-form h6 {
+  font-family: 'Lobster';
+  font-size: 30px;
+  color: #d09803;
+  padding: 10px;
+}
+.reservation-form p {
+  font-size: 15px;
+}
+
+.reservation-form b {
+  font-size: 12px;
+}
+
+.reservation-form  {
+  font-size: 10px;
+}
+
+button {
+    background-color: #d09803;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+/* FOOTER */
+.footer-color h6 {
+  color: #d09803;
+  font-family: 'Lobster';
+  padding: 20px;
+  font-size: 20px;
+}
+
+.footer-color p {
+  color: white;
+}
+
+.footer-container {
+  background-color: darkslategrey;
+  line-height: 30px;
+}
+
+.burger-btn {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+#burger-btn{
+  display: none;
+}
+
+#nav-list > li {
+  display: inline-block;
+}
+
+.ingredients-icon > li {
+  display: inline-block;
+}
+
+.ingredients-icon {
+  padding: 20px;
+}
+.pad-sides-60 {
+  padding:0px 60px;
+}
+
+@media only screen and (max-width: 768px) {
+  .col-2-row {
+    width:100%;
+  }
+
+  .col-3-row {
+    width: 100%;
+    display: block;
+  }
+
+  .background h1 {
+    font-size:50px;
+    padding: 20px;
+  }
+
+  #burger-btn {
+    display: block;
+  }
+  #nav-list {
+    display: none;
+  }
+  #nav-list > li {
+    display: block;
+  }
+  .flex-container {
+    display: block;
+    background-color: black;
+  }
+  .pad-sides-60 {
+    padding: 0px;
+  }
+  .slide-content h6 {
+    font-size:10px;
+    padding: 5px;
+  }
+  .background-main {
+    margin-top:160px;
+    height:500px;
+  }
+}

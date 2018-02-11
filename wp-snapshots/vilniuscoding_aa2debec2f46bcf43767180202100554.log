@@ -1,0 +1,79 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: February 2, 2018 10:06 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.32
+WORDPRESS:	4.9.2
+PHP INFO:	7.1.5 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 14MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported 
+TABLES: total:13 | filtered:0 | create:13 
+FILTERED: [] 
+SQL CREATED: vilniuscoding_aa2debec2f46bcf43767180202100554_database.sql 
+SQL FILE SIZE: 306.51KB (313867) 
+SQL FILE TIME: 2018-02-02 10:06:20 
+SQL RUNTIME: 0.51 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  C:/MAMP/htdocs/wp 
+ARCHIVE FILE: vilniuscoding_aa2debec2f46bcf43767180202100554_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	305.14MB 
+STATS:	Dirs 296 | Files 2,452 
+SQL ADDED: vilniuscoding_aa2debec2f46bcf43767180202100554_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2748
+    [filename] => C:\MAMP\htdocs\wp\wp-snapshots\tmp\vilniuscoding_aa2debec2f46bcf43767180202100554_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 270.93MB 
+ARCHIVE RUNTIME: 165.82 sec. 
+MEMORY STACK: 14MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+PACK SIZE:  
+Template parsed with new data 
+Complete [C:/MAMP/htdocs/wp/wp-snapshots/tmp/vilniuscoding_aa2debec2f46bcf43767180202100554_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 306.51KB 
+Installer File: 443.97KB 
+Archive File: 270.93MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 197.70 sec.
+PEAK PHP MEMORY USED: 16MB
+DONE PROCESSING => vilniuscoding February 2, 2018 10:09 am
+ 
